@@ -8,17 +8,23 @@ var baixo =  keyboard_check(ord("S"))
 var space = keyboard_check_pressed(vk_space);
 var escudo = keyboard_check_pressed(ord("E"));
 //lvl tiro debug
+/*
 if(keyboard_check_pressed(ord("O"))){
 	lvltiro--;
 }
 if(keyboard_check_pressed(ord("P"))){
 	lvltiro++;
-}
+}*/
 //escudo
 if(escudo && qtd_escudo>0 ){ 
 	instance_create_layer(x,y,"player",obj_escudo);	
 	qtd_escudo--;
 }
+
+//limitando para n sair da tela
+
+x = clamp(x,32,room_width-32);
+y = clamp(y,32,room_width-32);
 
 //movi basic
 var hsp= (dir-esq)*vel;

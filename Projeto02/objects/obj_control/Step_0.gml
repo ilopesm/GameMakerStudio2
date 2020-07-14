@@ -6,6 +6,10 @@ if(expa>= expl ){
 	expl *= 1.8;
 }
 
+if(expa>global.maxp){
+	global.maxp = expa;
+}
+
 if(global.lvl>=5 && boss == false)
 {
 	instance_create_layer(room_width/2,-700,"inimigos",obj_boss);

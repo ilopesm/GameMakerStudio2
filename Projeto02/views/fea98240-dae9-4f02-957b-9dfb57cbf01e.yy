@@ -8,7 +8,8 @@
         "8056a05a-0cdc-401b-b00f-6d02180a9713",
         "11e83db2-6980-4304-a3e9-18e36f9816d6",
         "256ff3ff-b62f-417b-ba59-554cf6818592",
-        "27b7e2dd-c1c7-404f-9569-032b928f56a6"
+        "27b7e2dd-c1c7-404f-9569-032b928f56a6",
+        "1c11381d-92c7-41d7-9996-29d612bde0f9"
     ],
     "filterType": "GMObject",
     "folderName": "ETC",
